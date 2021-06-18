@@ -1,0 +1,140 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  color: #000000;
+  line-height: 2;
+}
+
+h1 {
+  margin: 50 auto 0 auto;
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 5.625rem;
+  color: chocolate;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: chocolate;
+}
+
+h3 {
+  font-family: 'Architects Daughter', cursive;
+  color: #A35709;
+}
+
+a {
+  border-top: 20px;
+}
+
+hr {
+  border: none;
+  border-top: dotted;
+  width: 5%;
+  color: chocolate;
+  border-width: thick;
+}
+
+.Top-container {
+  background-color: #FFBD9B;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bottom-container {
+  background-color: #D99879;
+  padding: 20px 0 30px;
+}
+
+.greeting {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.git {
+  margin-bottom: 100px;
+  width: 50%;
+  margin: 50px auto;
+}
+
+.btn {
+  background: #ffd8cc;
+  background-image: -webkit-linear-gradient(top, #ffd8cc, #ffbd9b);
+  background-image: -moz-linear-gradient(top, #ffd8cc, #ffbd9b);
+  background-image: -ms-linear-gradient(top, #ffd8cc, #ffbd9b);
+  background-image: -o-linear-gradient(top, #ffd8cc, #ffbd9b);
+  background-image: linear-gradient(to bottom, #ffd8cc, #ffbd9b);
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 18px;
+  font-family: 'Roboto Mono', monospace, arial;
+  color: #0a1d37;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ffeedb;
+  background-image: -webkit-linear-gradient(top, #ffeedb, #ffeedb);
+  background-image: -moz-linear-gradient(top, #ffeedb, #ffeedb);
+  background-image: -ms-linear-gradient(top, #ffeedb, #ffeedb);
+  background-image: -o-linear-gradient(top, #ffeedb, #ffeedb);
+  background-image: linear-gradient(to bottom, #ffeedb, #ffeedb);
+  text-decoration: none;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 150px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 150px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.Photography {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.coding {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.footer-link {
+  color: chocolate;
+  text-decoration: none;
+  padding: 0 30px 20px;
+  margin-bottom: 10px;
+}
+
+.copyright {
+  color: #0a1d37;
+  margin-top: 60px;
+  margin-bottom: 0;
+  font-family: 'Architects Daughter', cursive;
+}
